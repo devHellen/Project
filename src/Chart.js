@@ -52,7 +52,7 @@ export default function Deposits() {
     
     <React.Fragment>
       
-      <div style={{  height: 400, width: '100%', right:1000}}>
+      <div style={{  height: 200, width: '100%'}}>
       <DataGrid
         rows={rows}
         columns={columns}
