@@ -5,9 +5,62 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-image: url("https://source.unsplash.com/1600x900/?landscape"); */
+  
+ 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+.bg-light{
+  background-color: hsl(0, 20%, 93%);
+  width: 100%; /*Largura */
+  max-width: 100%; /*Largura Máxima */
+  align-items: center;
+  opacity: 0.7; /* Transparencia do fundo de tela */
+  padding: 100px;
+
+
+}
+
+
+button:hover {
+  background-color: #7c7c7c6b;
+}
+
+
+.image { 
+  height: 25px;
+}
+h1 {
+  color: black;
+  font-size: 30px;
+}
+
+h2 {
+  color: white;
+  font-size: 20px;
+}
+h3 {
+  color: black;
+  font-size: 18px;
+}
+p {
+  color: black;
+  font-size: 16px;
+}
+
+
+
